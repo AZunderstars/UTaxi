@@ -17,7 +17,7 @@ Then use this command to run the game:
 ./utaxi.out locations.csv
 ```
 
-<i>(You can edit city location too.)</i>
+<i>(You can edit city locations and traffic.)</i>
 
 [Description Part 1](Description-part1.pdf)
 
