@@ -1,0 +1,7 @@
+POST signup ? username passenger1 role passenger
+POST signup ? username passenger2 role passenger
+POST signup ? username driver1 role driver
+GET cost ? username passenger1 origin Enghelab destination Farahzad in_hurry no
+GET cost ? username passenger1 origin Enghelab destination Farahzad in_hurry yes
+GET cost ? username passenger1 origin Enghelab destination Tehranpars in_hurry yes
+GET cost ? username passenger1 origin Tehranpars destination Tehranpars in_hurry yes

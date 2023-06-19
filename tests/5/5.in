@@ -1,0 +1,15 @@
+POST signup ? username passenger1 role passenger
+POST signup ? username passenger2 role passenger
+POST signup ? username passenger3 role passenger
+POST signup ? username passenger4 role passenger
+POST signup ? username passenger5 role passenger
+POST signup ? username passenger6 role passenger
+POST signup ? username driver1 role driver
+POST trips ? username passenger1 origin SaadatAbad destination Farahzad in_hurry yes
+POST trips ? username passenger2 origin SaadatAbad destination Enghelab in_hurry yes
+POST trips ? username passenger3 origin SaadatAbad destination Marzdaran in_hurry no
+POST trips ? username passenger4 origin Farahzad destination Enghelab in_hurry no
+POST trips ? username passenger5 origin Farahzad destination Marzdaran in_hurry no
+POST trips ? username passenger6 origin Enghelab destination Tehranpars in_hurry no
+GET trips ? username driver1 sort_by_cost no
+GET trips ? username driver1 sort_by_cost yes

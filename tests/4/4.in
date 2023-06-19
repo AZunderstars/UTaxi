@@ -1,0 +1,13 @@
+POST signup ? username passenger1 role passenger
+POST signup ? username passenger2 role passenger
+POST signup ? username driver1 role driver
+GET cost ? username passenger1 origin SaadatAbad destination Farahzad in_hurry yes
+GET cost ? username passenger1 origin SaadatAbad destination Farahzad in_hurry no
+POST trips ? username passenger1 origin SaadatAbad destination Farahzad in_hurry yes
+POST trips ? username passenger2 origin SaadatAbad destination Farahzad in_hurry no
+GET trips ? username driver1 sort_by_cost no
+POST accept ? username driver1 id 1
+POST finish ? username driver1 id 1
+POST accept ? username driver1 id 2
+POST finish ? username driver1 id 2
+GET trips ? username driver1 sort_by_cost yes
